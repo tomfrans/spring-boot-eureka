@@ -1,0 +1,16 @@
+# Spring Properties
+spring:
+  application:
+     name: web-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+#  instance:
+#   prefer-ip-address: false    
+#    non-secure-port: 80
+# HTTP Server
+server:
+  port: 8002   # HTTP (Tomcat) port
